@@ -25,5 +25,4 @@ class CouponsController < ApplicationController
   def current_coupon
     Coupon.find(params[:id])
   end
-
 end
